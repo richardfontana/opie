@@ -1,4 +1,5 @@
 use std::fs;
+use std::path::Path;
 
 fn main() {
     match fs::create_dir("_site") {
