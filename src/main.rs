@@ -8,5 +8,5 @@ fn main() {
 }
 
 fn version() -> &'static str {
-    return env!("CARGO_PKG_VERSION")
+    env!("CARGO_PKG_VERSION")
 }
