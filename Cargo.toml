@@ -2,3 +2,6 @@
 name = "opie"
 version = "0.1.0"
 authors = ["Richard Fontana <fontana@sharpeleven.org>"]
+
+[dependencies]
+getopts = "0.2"
